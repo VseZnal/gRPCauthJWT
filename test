@@ -1,0 +1,8 @@
+protoc -I api/gRPCauthJWT/pkg/api/src  --go_out=plugins=grpc:api api/proto/api.proto
+
+go run main.go
+
+Loginrequest:  Slava
+Login Reply: status:"200" token: ...
+
+Response from server: bar Slava
