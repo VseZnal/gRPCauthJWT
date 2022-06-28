@@ -6,3 +6,5 @@ Loginrequest:  Slava
 Login Reply: status:"200" token: ...
 
 Response from server: bar Slava
+
+"exp":      time.Now().Add(time.Hour).Unix()
